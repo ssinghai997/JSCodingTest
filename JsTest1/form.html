@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Coding Test</title>
+        <link rel="stylesheet" href="css/bootstrap.css">   
+        <link rel="stylesheet" href="css/form.css">   
+        
+        
+    </head>
+    <body>
+        <div class="container shadow-lg p-3 mb-5 bg-white rounded col-4 form-group">
+        
+            <h2>Register With Us</h2>
+       
+        <!-- <div class="container "> -->
+        <div class="form-group text-secondary">
+            <label for="UserName">Username</label>
+            <input type="text" class="form-control"  placeholder="Enter Username" required  minlength="3">
+            
+            
+        </div>
+        <div class="form-group text-secondary">
+            <label for="InputEmail"  >Email</label>
+            <input type="email" class="form-control" placeholder="Enter Email" id="emailId" onkeyup="emailValidation()" required/>
+        </div>
+        <div class="form-group text-secondary">
+            <label for="InputPass">Password</label>
+            <input type="password" class="form-control" placeholder="Enter Password" required>
+        </div>
+        <div class="form-group text-secondary">
+            <label for="InputPass">Confirm Password</label>
+            <input type="password" class="form-control" placeholder="Enter Password again" required>
+        </div>
+        <button class="btn btn-primary">Submit</button>
+    </div>
+</div>
+    <script src="../JsTest1/jsTest.js/form.js"></script>
+    
+    </body>
+</html>
